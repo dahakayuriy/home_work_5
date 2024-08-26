@@ -1,0 +1,101 @@
+@import url("reset.css");
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 10px;
+  margin: 0 auto;
+  background-image: url("../images/Screenshot_1.jpg");
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 80px;
+  color: aliceblue;
+  padding: 30px 0 20px;
+}
+
+.header-firm {
+  font-weight: 100;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.header-price {
+  font-weight: 400;
+  font-size: 30px;
+  color: aliceblue;
+  padding: 80px 0 20px;
+}
+
+.header-button {
+  width: 25%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(247, 161, 100);
+  background: #ff6200;
+  box-shadow: 0 5px 0 #ff6200;
+  margin: 10px 0 30px;
+}
+
+.header-button__title {
+  font-size: 30px;
+
+  color: aliceblue;
+  padding: 80px 0 20px;
+}
+
+.header-button__img {
+  width: 60px;
+  height: 60px;
+  margin: 10px 20px 0 20px;
+}
+
+.header-btn {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-data {
+  font-weight: 100;
+  font-size: 20px;
+  color: aliceblue;
+  padding: 20px 0 20px;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.header-icons__title {
+  font-weight: 100;
+  font-size: 20px;
+  color: aliceblue;
+  padding-top: 20px;
+}
+
+.header-icons__img {
+  width: 60px;
+  height: 60px;
+  margin: 0 0 0 20px;
+}
+
+.header-description {
+  font-weight: 400;
+  font-size: 30px;
+  color: aliceblue;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.header-bye__img {
+  width: 20%;
+  height: 20%;
+  margin: 0 0 0 40%;
+}
